@@ -11,7 +11,7 @@ setuptools.setup(
     description="A pandas-based library to visualize and compare datasets.",
     long_description=long_description_from_file,
     long_description_content_type="text/markdown",
-    url="https://github.com/fbdesignpro/sweetviz",
+    url="https://github.com/DavidTitoInfantas/New_visual",
     classifiers=[
         "Programming Language :: Python :: 3",
 		"Programming Language :: Python :: 3.6",
