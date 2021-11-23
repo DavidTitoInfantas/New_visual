@@ -1,5 +1,5 @@
 import setuptools
-from sweetviz import __title__, __version__, __author__, __license__
+from sweetviz import __title__, __version__
 
 with open("README.md", "r") as fh:
     long_description_from_file = fh.read()
@@ -7,15 +7,11 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name=__title__,
     version=__version__,
-    author=__author__,
     author_email="fb@fbdesignpro.com",
     description="A pandas-based library to visualize and compare datasets.",
     long_description=long_description_from_file,
     long_description_content_type="text/markdown",
     url="https://github.com/fbdesignpro/sweetviz",
-    packages=setuptools.find_packages(),
-	license=__license__,
-	include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
 		"Programming Language :: Python :: 3.6",
@@ -23,7 +19,6 @@ setuptools.setup(
 		"Programming Language :: Python :: 3.8",
 		"Intended Audience :: Developers",
 		"Intended Audience :: Science/Research",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
 		"Development Status :: 5 - Production/Stable",
 		"Topic :: Scientific/Engineering :: Visualization",
